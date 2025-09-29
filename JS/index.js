@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx1JJgOycgU7aAa-5J3P08SPKg_cfU7ZNiou4m5qhXTMKMm9A_gEOk51oYHUjDjir0Eyw/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyo1cib-xR4kkAAFOJUasC8T7I72OdCIGA6wHWZ6VirWbu9QbVo2NUtO6mhaUxpTyKPpQ/exec';
 document.addEventListener('DOMContentLoaded', () => {
     const noticeBoard = document.getElementById('notice-board');
     const subscribeModal = document.getElementById('subscribe-modal');
@@ -127,4 +127,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     checkSubscriptionStatus();
+
 });
