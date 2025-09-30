@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyo1cib-xR4kkAAFOJUasC8T7I72OdCIGA6wHWZ6VirWbu9QbVo2NUtO6mhaUxpTyKPpQ/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySlg852_P770a_mBtiS610WtIbtcFe8f3uLk2hYoXb30FqW6E700My6vae977zGgLurw/exec';
 document.addEventListener('DOMContentLoaded', () => {
     const noticeBoard = document.getElementById('notice-board');
     const subscribeModal = document.getElementById('subscribe-modal');
@@ -129,3 +129,4 @@ document.addEventListener('DOMContentLoaded', () => {
     checkSubscriptionStatus();
 
 });
+
